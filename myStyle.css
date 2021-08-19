@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+}
+@font-face {
+    font-family: Icons;
+    src: url(./SVGs/Icons.ttf);
+}
+@font-face {
+    font-family: Made Tommy;
+    src: url(./assets/MADE\ Tommy\ Soft\ Light\ PERSONAL\ USE.otf);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.icons{
+    font-family: 'Icons';
+    color: white; 
+    transition: all 0.5s; 
+}
+.txt{
+    font-family: 'Made Tommy';
+    font-size: 40px;
+}
+#logo{
+    font-size: 300px;
+}
+.works{
+    display: flex;
+    justify-content: center;    
+}
+.work{
+    font-size: 150px;
+    margin: 100px;
+    margin-top: 0;
+    float: left;
+    margin-top: 500px;
+    cursor: pointer;
+}
+.back{
+    width: 100%;
+    height: 200%;
+    background-color: #008080ff;
+    position: fixed;
+    z-index: -1;
+    transition: all 0.5s;
+}
+.logo{
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 1;
+}
+#curu:hover ~ .back{
+    background-color: #dc5b2fff;
+}
+#curu:hover ~ .icons{
+    color: black;
+}
+#curu:hover{
+    color: black;
+}
+#ink:hover ~ .back{
+    background-color: #4285f4ff;
+}
+#eco:hover ~ .back{
+    background-color: #005800ff;
+}
+
+
