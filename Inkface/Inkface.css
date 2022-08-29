@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cornflowerblue;
+    animation: flash 1s;
+}
+
+@keyframes flash {
+    from {
+        background-color: white;
+        opacity: 0;
+    }
+    to {
+        background-color: cornflowerblue;
+        opacity: 1;
+    }
+}
+
+.color {
+    width: auto;
+    height: auto;
+    position: absolute;
+    transition: all 2s;
+    opacity: 0;
+}
+
+#colorA {
+    transform: rotate(170deg);
+    padding: 20px;
+    right: 55%;
+    bottom: 68%;
+}
+
+#colorA .circle {
+    background-color: #f1ddd4ff;
+}
+
+#colorB {
+    transform: rotate(110deg);
+    padding: 20px;
+    right: 57%;
+    bottom: 40%;
+}
+
+#colorB .circle {
+    background-color: #e4bba9ff;
+}
+
+#colorC {
+    transform: rotate(-30deg);
+    padding: 20px;
+    right: 35%;
+    bottom: 15%;
+}
+
+#colorC .circle {
+    background-color: #d5a28dff;
+}
+
+#colorD {
+    transform: rotate(-90deg);
+    padding: 20px;
+    right: 40%;
+    bottom: 75%;
+}
+
+#colorD .circle {
+    background-color: #b78472ff;
+}
+
+#colorE {
+    transform: rotate(-50deg);
+    padding: 20px;
+    right: 31%;
+    bottom: 52%;
+}
+
+#colorE .circle {
+    background-color: #78422dff;
+}
+
+.circle {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid white;
+    position: absolute;
+    z-index: 1;
+    transition: all 2s;
+}
+
+.squad {
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    transition: all 1s;
+}
+
+.img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: inline-block;
+    text-align: center; */
+    height: 700px;
+    width: 70%;
+    margin: 6%;
+}
+
+.img-false {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: inline-block;
+    text-align: center; */
+    height: 700px;
+    width: 70%;
+    margin: 6%;
+}
+
+#a {
+    background-image: url(/Inkface/assets/01.png);
+    z-index: -1;
+    position: fixed;
+}
+
+#b {
+    background-image: url(/Inkface/assets/02.png);
+    z-index: 8;
+    transition: all 1s;
+}
+
+#c {
+    background-image: url(/Inkface/assets/03.png);
+    z-index: 2;
+}
+
+#d {
+    background-image: url(/Inkface/assets/04.png);
+    z-index: 3;
+}
+
+#e {
+    background-image: url(/Inkface/assets/05.png);
+    z-index: 4;
+}
+
+#f {
+    background-image: url(/Inkface/assets/06.png);
+    z-index: 5;
+}
+
+#g {
+    background-image: url(/Inkface/assets/07.png);
+    z-index: 6;
+}
+
+#h {
+    background-image: url(/Inkface/assets/08.png);
+    z-index: 7;
+}
+
+.galery {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.fixed {
+    position: fixed;
+}
