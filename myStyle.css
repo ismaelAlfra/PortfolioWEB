@@ -1,37 +1,49 @@
-*{
+* {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     text-align: center;
 }
+
 @font-face {
     font-family: Icons;
-    src: url(./SVGs/Icons.ttf);
+    src: url(/SVGs/Icons);
 }
+
 @font-face {
     font-family: Made Tommy;
     src: url(./assets/MADE\ Tommy\ Soft\ Light\ PERSONAL\ USE.otf);
 }
-a{
+
+body {
+    transition: all 1s;
+}
+
+a {
     text-decoration: none;
     color: inherit;
 }
-.icons{
+
+.icons {
     font-family: 'Icons';
-    color: white; 
-    transition: all 0.5s; 
+    color: white;
+    transition: all 0.5s;
 }
-.txt{
+
+.txt {
     font-family: 'Made Tommy';
     font-size: 40px;
 }
-#logo{
+
+#logo {
     font-size: 300px;
 }
-.works{
+
+.works {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
-.work{
+
+.work {
     font-size: 150px;
     margin: 100px;
     margin-top: 0;
@@ -39,7 +51,8 @@ a{
     margin-top: 500px;
     cursor: pointer;
 }
-.back{
+
+.back {
     width: 100%;
     height: 200%;
     background-color: #008080ff;
@@ -47,27 +60,31 @@ a{
     z-index: -1;
     transition: all 0.5s;
 }
-.logo{
+
+.logo {
     margin-top: 150px;
     width: 100%;
     height: auto;
     position: fixed;
     z-index: 1;
 }
-#curu:hover ~ .back{
+
+#curu:hover~.back {
     background-color: #dc5b2fff;
 }
-#curu:hover ~ .icons{
+
+#curu:hover~.icons {
     color: black;
 }
-#curu:hover{
+
+#curu:hover {
     color: black;
 }
-#ink:hover ~ .back{
-    background-color: #4285f4ff;
-}
-#eco:hover ~ .back{
-    background-color: #005800ff;
+
+#ink:hover~.back {
+    background-color: cornflowerblue;
 }
 
-
+#eco:hover~.back {
+    background-color: #6f7302ff;
+}

@@ -14,12 +14,24 @@
 }
 
 body {
-    background-color: #dc5b2fff;
     display: flex;
     align-items: center;
     flex-direction: column;
     max-width: 100%;
     overflow-x: hidden;
+    background-color: #dc5b2fff;
+    animation: flash 1s;
+}
+
+@keyframes flash {
+    from {
+        background-color: white;
+        opacity: 0;
+    }
+    to {
+        background-color: #dc5b2fff;
+        opacity: 1;
+    }
 }
 
 .contPes {
