@@ -123,44 +123,44 @@ body {
 }
 
 #a {
-    background-image: url(/Inkface/assets/01.png);
+    background-image: url(./assets/01.png);
     z-index: -1;
     position: fixed;
 }
 
 #b {
-    background-image: url(/Inkface/assets/02.png);
+    background-image: url(./assets/02.png);
     z-index: 8;
     transition: all 1s;
 }
 
 #c {
-    background-image: url(/Inkface/assets/03.png);
+    background-image: url(./assets/03.png);
     z-index: 2;
 }
 
 #d {
-    background-image: url(/Inkface/assets/04.png);
+    background-image: url(./assets/04.png);
     z-index: 3;
 }
 
 #e {
-    background-image: url(/Inkface/assets/05.png);
+    background-image: url(./assets/05.png);
     z-index: 4;
 }
 
 #f {
-    background-image: url(/Inkface/assets/06.png);
+    background-image: url(./assets/06.png);
     z-index: 5;
 }
 
 #g {
-    background-image: url(/Inkface/assets/07.png);
+    background-image: url(./assets/07.png);
     z-index: 6;
 }
 
 #h {
-    background-image: url(/Inkface/assets/08.png);
+    background-image: url(./assets/08.png);
     z-index: 7;
 }
 
