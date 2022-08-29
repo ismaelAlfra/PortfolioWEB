@@ -19,5 +19,5 @@ for (i = 0; i < linkIndex.length; i++) {
 }
 
 function delay(URL) {
-    setTimeout(function() { window.location.href += URL }, 800);
+    setTimeout(function() { window.location = URL }, 800);
 }
